@@ -5,9 +5,9 @@ These scripts were designed primarily for me to download on to a computer and co
 If you would like to use these scripts, please read on.
 
 Dependencies:
-ffmpeg
-ffserver
-VLC (for viewing the stream)
+1. ffmpeg
+2. ffserver
+3. VLC (for viewing the stream)
 
 # Installation and Use
 1. Download the configuration file and script and move them to your home folder
