@@ -6,5 +6,5 @@ ffserver -f ~/cam.conf &
 sleep 3
 ffmpeg -f video4linux2 -i /dev/video0 http://$ip:8091/feed1.ffm 
 pkill ffserver
-rm ~/feed1.ffm
+rm /tmp/feed1.ffm
 exit 0
